@@ -1,6 +1,8 @@
-import Animation from "@/components/animation";
+
 // import Image from "next/image";
 
+import DynamicRayAnimation from "@/components/DynamicRayAnimation";
+
 export default function Home() {
-  return <Animation />;
+  return <DynamicRayAnimation />
 }
